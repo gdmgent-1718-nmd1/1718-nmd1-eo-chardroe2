@@ -1,3 +1,21 @@
+/***********/
+/*   FONTS */
+/***********/
+
+@font-face {
+    font-family: Phosphate;
+    src: url(../fonts/Phosphate.ttf);
+}
+
+@font-face{
+    font-family: Helvetica;
+    src: url(../fonts/hel.ttf);
+}
+/* Voeg jouw css hieraan toe */
+html,body {
+    height: auto;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -9,10 +27,140 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+body h1 {
+    font-family: Phosphate;
+    font-size: 4em;
+    height: 1.6em;
+    line-height: 1.6em;
+    width: auto;
+    display: inline-block;
+    color: #FBFADF;
+    background-color: #B3DBCF
 }
 
-/* Voeg jouw css hieraan toe */
+article{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+article p {
+    display: inline-block;
+    
+}
+
+article h2 {
+    text-align: center;
+}
+#titel_first{
+    font-family: phosphate;
+    font-size: 55px;
+    color: black
+}
+
+#titel_second{
+    font-family: phosphate;
+    font-size: 41px;
+    color: black;
+    margin-top:67px;
+}
+
+#logo {
+    width: 45%;
+    display: inline-block;
+
+}
+
+#titel_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+}
+
+#titel_container div{
+    display: flex;
+    flex-direction: column;
+}
+
+#text_container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    width: 45%;
+}
+
+.tekst_preview{
+    width: 39%
+}
+
+#bold {
+    Font-family: Helvetica;
+}
+
+#light {
+    font-family: Helvetica;
+}
+
+
+
+
+
+#colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+}
+
+#colors div {
+    height: 25%;
+    width:15%;
+    text-align: center;
+
+}
+
+#colors div:nth-child(1){
+    background-color: #B3DBCF;
+}
+
+#colors div:nth-child(2){
+    background-color: #FBFADF;
+}
+
+#colors div:nth-child(3){
+    background-color:#c0c316;
+}
+
+#colors div:nth-child(4){
+    background-color:#e25613;
+}
+
+#navigatie{
+    width: 50%;
+}
+
+#homeknop:hover{
+    width: 30%;
+}
+
+#tipi:hover{
+    width: 30%;
+}
+
+#hut:hover{
+    width: 20%;
+}
+
+#kopen:hover{
+    width: 25%;
+}
