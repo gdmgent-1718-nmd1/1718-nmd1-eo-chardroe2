@@ -11,6 +11,20 @@
     font-family: Helvetica;
     src: url(../fonts/hel.ttf);
 }
+/* introductie */
+
+#info{
+    font-family: phosphate;
+    font-size: 15px;
+    color: black;
+    margin-top:67px;
+}
+
+
+
+
+
+
 /* Voeg jouw css hieraan toe */
 html,body {
     height: auto;
