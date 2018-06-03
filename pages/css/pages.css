@@ -152,7 +152,7 @@ article h2 {
 }
 
 #navigatie{
-    width: 50%;
+    width: 30%;
 }
 
 #homeknop:hover{
@@ -160,13 +160,13 @@ article h2 {
 }
 
 #tipi:hover{
-    width: 30%;
+    width: 35%;
 }
 
 #hut:hover{
-    width: 20%;
+    width: 40%;
 }
 
 #kopen:hover{
-    width: 25%;
+    width:40%;
 }
